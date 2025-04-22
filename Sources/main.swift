@@ -3,7 +3,7 @@ import AVFoundation
 import AppKit
 
 func printUsage() {
-    print("Usage: thumbnailer <movie-file> [movie-file2 ...] [--rows=N] [--columns=N] [--width=N]")
+    print("Usage: SwiftThumbnailer <movie-file> [movie-file2 ...] [--rows=N] [--columns=N] [--width=N]")
 }
 
 func formatTime(seconds: Double) -> String {

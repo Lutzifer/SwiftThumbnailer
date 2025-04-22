@@ -18,13 +18,13 @@ It takes one or multiple video files as input and produces `.jpg` images display
 ## Usage
 
 ```bash
-swift run thumbnailer <movie-file> [movie-file2 ...] [--rows=N] [--columns=N] [--width=N]
+swift run SwiftThumbnailer <movie-file> [movie-file2 ...] [--rows=N] [--columns=N] [--width=N]
 ```
 
 ### Example
 
 ```bash
-swift run thumbnailer sample1.mp4 sample2.mov --rows=3 --columns=5 --width=1920
+swift run SwiftThumbnailer sample1.mp4 sample2.mov --rows=3 --columns=5 --width=1920
 ```
 
 This will create `sample1.mp4.jpg` and `sample2.mov.jpg` with 3 rows, 5 columns, and a width of 1920 pixels.
